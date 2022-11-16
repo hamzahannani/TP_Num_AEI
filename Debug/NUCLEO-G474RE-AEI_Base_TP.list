@@ -2459,7 +2459,7 @@ void HAL_UART_RxCpltCallback (UART_HandleTypeDef * huart){
 	uartRxReceived = 1;
  8001124:	4b05      	ldr	r3, [pc, #20]	; (800113c <HAL_UART_RxCpltCallback+0x20>)
  8001126:	2201      	movs	r2, #1
- 8001128:	601a      	str	r2, [r3, #0]
+ 8001128:	701a      	strb	r2, [r3, #0]
 	HAL_UART_Receive_IT(&huart2, uartRxBuffer, UART_RX_BUFFER_SIZE);
  800112a:	2201      	movs	r2, #1
  800112c:	4904      	ldr	r1, [pc, #16]	; (8001140 <HAL_UART_RxCpltCallback+0x24>)

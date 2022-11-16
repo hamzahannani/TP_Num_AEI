@@ -4563,8 +4563,9 @@ LOAD c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .bss.htim1     0x0000000020000148       0x4c ./Core/Src/tim.o
                 0x0000000020000148                htim1
  .bss.uartRxReceived
-                0x0000000020000194        0x4 ./Core/Src/usart.o
+                0x0000000020000194        0x1 ./Core/Src/usart.o
                 0x0000000020000194                uartRxReceived
+ *fill*         0x0000000020000195        0x3 
  .bss.uartRxBuffer
                 0x0000000020000198        0x1 ./Core/Src/usart.o
                 0x0000000020000198                uartRxBuffer
