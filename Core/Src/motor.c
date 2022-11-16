@@ -10,11 +10,20 @@
   */
 
 #include "motor.h"
-
+extern TIM_HandleTypeDef htim1;
 /**
   * @brief  Switch on the motor driver
   * @retval None
   */
+
+void StartPWM(void)
+{
+	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);
+	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_2);
+	HAL_TIMEx_PWMN_Start(&htim1,TIM_CHANNEL_1);
+	HAL_TIMEx_PWMN_Start(&htim1,TIM_CHANNEL_2);
+}
+
 void motorPowerOn(void){
 	HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin); // just for test, you can delete it
 }

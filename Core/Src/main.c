@@ -100,6 +100,7 @@ int main(void)
 	HAL_UART_Receive_IT(&huart2, uartRxBuffer, UART_RX_BUFFER_SIZE);
 	HAL_Delay(1);
 	shellInit();
+	StartPWM();
   /* USER CODE END 2 */
 
   /* Infinite loop */
