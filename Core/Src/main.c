@@ -100,6 +100,7 @@ int main(void)
 	HAL_UART_Receive_IT(&huart2, uartRxBuffer, UART_RX_BUFFER_SIZE);
 	HAL_Delay(1);
 	shellInit();
+<<<<<<< HEAD
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
 	HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_1);
@@ -107,6 +108,9 @@ int main(void)
 	HAL_GPIO_WritePin(ISO_RESET_GPIO_Port, ISO_RESET_Pin, SET);
 	HAL_Delay(1);
 	HAL_GPIO_WritePin(ISO_RESET_GPIO_Port, ISO_RESET_Pin, RESET);
+=======
+	StartPWM();
+>>>>>>> 14865d44f189d52a4ccc2d2e91b8343a3c4033b5
   /* USER CODE END 2 */
 
   /* Infinite loop */
