@@ -1,0 +1,37 @@
+digraph "RCC Exported Functions"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir=LR;
+  Node14 [label="FLAG Management",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___f_l_a_g___management.html",tooltip=" "];
+  Node3 [label="HSE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___h_s_e.html",tooltip=" "];
+  Node4 [label="HSI",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___h_s_i.html",tooltip=" "];
+  Node5 [label="HSI48",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___h_s_i48.html",tooltip=" "];
+  Node15 [label="IT Management",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___i_t___management.html",tooltip=" "];
+  Node8 [label="LSCO",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___l_s_c_o.html",tooltip=" "];
+  Node6 [label="LSE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___l_s_e.html",tooltip=" "];
+  Node7 [label="LSI",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___l_s_i.html",tooltip=" "];
+  Node10 [label="MCO",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___m_c_o.html",tooltip=" "];
+  Node13 [label="PLL",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___p_l_l.html",tooltip=" "];
+  Node11 [label="Peripheral Clock Source",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___peripheral___clock___source.html",tooltip=" "];
+  Node12 [label="RTC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___r_t_c.html",tooltip=" "];
+  Node9 [label="System",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___r_c_c___l_l___e_f___system.html",tooltip=" "];
+  Node1 [label="RCC Exported Functions",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 [label="STM32G4xx_LL_Driver",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___s_t_m32_g4xx___l_l___driver.html",tooltip=" "];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node6 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node7 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node8 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node9 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node10 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node11 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node12 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node13 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node14 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node15 [shape=plaintext, dir="back", style="solid"];
+}

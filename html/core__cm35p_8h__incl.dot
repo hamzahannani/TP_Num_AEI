@@ -1,0 +1,15 @@
+digraph "Drivers/CMSIS/Include/core_cm35p.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="Drivers/CMSIS/Include\l/core_cm35p.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="CMSIS Cortex-M35P Core Peripheral Access Layer Header File."];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="stdint.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="cmsis_version.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$cmsis__version_8h.html",tooltip="CMSIS Core(M) Version definitions."];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="cmsis_compiler.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$cmsis__compiler_8h.html",tooltip="CMSIS compiler generic header file."];
+  Node4 -> Node2 [color="steelblue1",style="solid"];
+}
