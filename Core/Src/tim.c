@@ -43,11 +43,8 @@ void MX_TIM1_Init(void)
 
   /* USER CODE END TIM1_Init 1 */
   htim1.Instance = TIM1;
-<<<<<<< HEAD
   htim1.Init.Prescaler = 11-1;
-=======
   htim1.Init.Prescaler = 10;
->>>>>>> 14865d44f189d52a4ccc2d2e91b8343a3c4033b5
   htim1.Init.CounterMode = TIM_COUNTERMODE_CENTERALIGNED1;
   htim1.Init.Period = 1023;
   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
@@ -74,11 +71,8 @@ void MX_TIM1_Init(void)
     Error_Handler();
   }
   sConfigOC.OCMode = TIM_OCMODE_PWM1;
-<<<<<<< HEAD
   sConfigOC.Pulse = 511;
-=======
   sConfigOC.Pulse = 767;
->>>>>>> 14865d44f189d52a4ccc2d2e91b8343a3c4033b5
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCNPolarity = TIM_OCNPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;

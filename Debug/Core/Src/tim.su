@@ -1,9 +1,4 @@
 ../Core/Src/tim.c:30:6:MX_TIM1_Init	120	static
-../Core/Src/tim.c:112:6:HAL_TIM_Base_MspInit	24	static
-<<<<<<< HEAD
-../Core/Src/tim.c:127:6:HAL_TIM_MspPostInit	40	static
-../Core/Src/tim.c:158:6:HAL_TIM_Base_MspDeInit	16	static
-=======
-../Core/Src/tim.c:133:6:HAL_TIM_MspPostInit	40	static
-../Core/Src/tim.c:164:6:HAL_TIM_Base_MspDeInit	16	static
->>>>>>> 14865d44f189d52a4ccc2d2e91b8343a3c4033b5
+../Core/Src/tim.c:114:6:HAL_TIM_Base_MspInit	24	static
+../Core/Src/tim.c:135:6:HAL_TIM_MspPostInit	40	static
+../Core/Src/tim.c:166:6:HAL_TIM_Base_MspDeInit	16	static
