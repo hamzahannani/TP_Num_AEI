@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="false"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\33651\Documents\AEI_22_23\ComNum\TP_Num_AEI"/>
+			<item value="C:\Users\hanna\NUCLEO-G474RE-AIE_Base_TP\Debug"/>
+			<item value="C:\Users\hanna\NUCLEO-G474RE-AIE_Base_TP"/>
+			<item value="C:\Users\hanna\NUCLEO-G474RE-AIE_Base_TP\Core"/>
+		</list>
+	</section>
+</section>

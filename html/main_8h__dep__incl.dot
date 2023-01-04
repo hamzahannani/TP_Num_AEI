@@ -1,0 +1,39 @@
+digraph "Core/Inc/main.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="Core/Inc/main.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=": Header for main.c file. This file contains the common defines of the application."];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="Core/Inc/gpio.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$gpio_8h.html",tooltip="This file contains all the function prototypes for the gpio.c file."];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="Core/Src/gpio.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$gpio_8c.html",tooltip="This file provides code for the configuration of all used GPIO pins."];
+  Node2 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="Core/Src/main.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$main_8c.html",tooltip=": Main program body"];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="Core/Inc/motor.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$motor_8h_source.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node5 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="Core/Src/shell.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$shell_8c.html",tooltip="This file provides code for motor control."];
+  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="Core/Inc/shell.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$shell_8h_source.html",tooltip=" "];
+  Node7 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node7 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="Core/Inc/tim.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$tim_8h.html",tooltip="This file contains all the function prototypes for the tim.c file."];
+  Node8 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node8 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="Core/Src/tim.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$tim_8c.html",tooltip="This file provides code for the configuration of the TIM instances."];
+  Node1 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="Core/Inc/usart.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$usart_8h.html",tooltip="This file contains all the function prototypes for the usart.c file."];
+  Node10 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node10 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node10 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node11 [label="Core/Src/usart.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$usart_8c.html",tooltip="This file provides code for the configuration of the USART instances."];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node12 [dir="back",color="steelblue1",style="solid"];
+  Node12 [label="Core/Src/stm32g4xx\l_hal_msp.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32g4xx__hal__msp_8c.html",tooltip="This file provides code for the MSP Initialization and de-Initialization codes."];
+  Node1 -> Node13 [dir="back",color="steelblue1",style="solid"];
+  Node13 [label="Core/Src/stm32g4xx_it.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32g4xx__it_8c.html",tooltip="Interrupt Service Routines."];
+}

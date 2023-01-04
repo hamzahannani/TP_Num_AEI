@@ -1,0 +1,5 @@
+../Core/Src/motor.c:20:6:StartPWM	8	static
+../Core/Src/motor.c:28:6:motorPowerOn	8	static
+../Core/Src/motor.c:36:6:motorPowerOff	8	static
+../Core/Src/motor.c:45:6:motorSetSpeed	16	static
+../Core/Src/motor.c:61:6:HAL_GPIO_EXTI_CallBack	16	static
