@@ -44,9 +44,7 @@ Voici la fonction permettant de lancer les deux PWM et leur complémentaire à l
 <figure> <br/>
 	<figure>
     <img src="https://user-images.githubusercontent.com/93315587/213122016-3d2dcf36-c4f7-4379-8a16-3c0b67d3152d.png"
-         alt="figure 3"
-	 height="300" 
-	 width="300">
+         alt="figure 3">
     <figcaption>Figure 3 : Géneration des PWM </figcaption>
 <figure> <br/>
 
