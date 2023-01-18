@@ -22,4 +22,10 @@ Nous décidons de génerer 2 PWM et leur complémentaire (afin de piloter le mot
 
 ![pwmoscil2](https://user-images.githubusercontent.com/93315587/213118470-af036310-80aa-4fb5-99fc-738890ca2e1e.jpg)
 
-
+<figure>
+    <img src="https://user-images.githubusercontent.com/93315587/213118470-af036310-80aa-4fb5-99fc-738890ca2e1e.jpg"
+         alt="figure 1"
+	 height="300" 
+	 width="300">
+    <figcaption>figure 1 : Capture d'une PWM à 16kHz avec un rapport cyclique de 50% </figcaption>
+<figure> <br/>
