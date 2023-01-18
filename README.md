@@ -36,6 +36,7 @@ Nous décidons de génerer 2 PWM et leur complémentaire (afin de piloter le mot
     <figcaption>Figure 2 : Capture d'une PWM à 16kHz avec un rapport cyclique de 75% </figcaption>
 <figure> <br/>	
 Nous avons également défini les temps morts des PWM à l'aide de cette vidéo : https://www.youtube.com/watch?v=rDaC2N-33Oo
+	
 Cela nous permet de trouver dead_time=202.
 
 Voici la fonction permettant de lancer les deux PWM et leur complémentaire à la valeur définie dnas l'ioc 
@@ -47,6 +48,13 @@ Voici la fonction permettant de lancer les deux PWM et leur complémentaire à l
     <figcaption>Figure 3 : Géneration des PWM </figcaption>
 <figure> <br/>
 
+
+<figure> <br/>
+	<figure>
+    <img src="https://user-images.githubusercontent.com/93315587/213146788-e96c984f-db73-437f-b63e-f9d675710a13.png"
+         alt="figure 4">
+    <figcaption>Figure 4 : Illustration sur l'IOC </figcaption>
+<figure> <br/>
 
 
 	
