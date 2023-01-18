@@ -29,6 +29,8 @@ Nous décidons de génerer 2 PWM et leur complémentaire (afin de piloter le mot
     <figcaption>Figure 1 : Capture d'une PWM à 16kHz avec un rapport cyclique de 50% </figcaption>
 	
 	
+	
+	
 <figure> <br/>
 	<figure>
     <img src="https://user-images.githubusercontent.com/93315587/213119450-306a818c-ba9a-4046-84dd-4368ec467a55.jpg"
