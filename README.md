@@ -26,11 +26,7 @@ Nous décidons de génerer 2 PWM et leur complémentaire (afin de piloter le mot
          alt="figure 1"
 	 height="300" 
 	 width="300">
-    <figcaption>Figure 1 : Capture d'une PWM à 16kHz avec un rapport cyclique de 50% </figcaption>
-	
-	
-	
-	
+    <figcaption>Figure 1 : Capture d'une PWM à 16kHz avec un rapport cyclique de 50% </figcaption>	
 <figure> <br/>
 	<figure>
     <img src="https://user-images.githubusercontent.com/93315587/213119450-306a818c-ba9a-4046-84dd-4368ec467a55.jpg"
@@ -38,9 +34,7 @@ Nous décidons de génerer 2 PWM et leur complémentaire (afin de piloter le mot
 	 height="300" 
 	 width="300">
     <figcaption>Figure 2 : Capture d'une PWM à 16kHz avec un rapport cyclique de 75% </figcaption>
-<figure> <br/>
-
-	
+<figure> <br/>	
 Nous avons également défini les temps morts des PWM à l'aide de cette vidéo : https://www.youtube.com/watch?v=rDaC2N-33Oo
 Cela nous permet de trouver dead_time=202.
 
