@@ -66,4 +66,16 @@ Une fois que nous avons créé nos PWM, nous allons les envoyer dans notre hache
 
 ![pinhacheur](https://user-images.githubusercontent.com/93315587/214108723-0c3bd23e-149c-403d-8b05-f0aa457ece50.png)
 
-	
+Une fois que l'on arrive à piloter le moteur en envoyant les PWM nous allons créer une liaison UART afin de modifier la commande des PWM et ainsi faire varier la vitesse du moteur. Pour ce faire nous crééons une variable qui agit sur les deux PWM afin de faire tourner le moteur dans un sens ou dans l'autre selon la valeur entrée. Cependant, l'appel de courant ne doit pas être trop important et par conséquent on est obligé de commencer à une valeur très proche d'une vitesse de rotation nulle (ici 512)
+
+Nous créeons donc une shell dans laquelle nous allons effectuer des fonctions 
+<figure> <br/>
+	<figure>
+    <img src="https://user-images.githubusercontent.com/93315587/215481896-b71b586e-c9b9-4642-90ea-fcbbc688a896.png"
+         alt="figure 5">
+    <figcaption>Figure 5 : Lancement de la shell </figcaption>
+<figure> <br/>
+
+Nous lançons ensuite la fonction motorSetSpeed dans la shell, cette fonction fait varier les PWM 
+
+![speed](https://user-images.githubusercontent.com/93315587/215481374-fb1801a0-1685-40ce-ba2d-0fcd07a1e66f.png)
